@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="styleToast" >
+        <item name="stColorBackground" >#5e1224</item>
+        <item name="stTextColor" >#fff</item>
+        <item name="stIconStart">@drawable/ic_priority</item>
+    </style>
+
+    <style name="endToast" >
+        <item name="stColorBackground" >@color/colorPrimary</item>
+        <item name="stTextColor" >#fff</item>
+        <item name="stIconStart" >@drawable/ic_smile</item>
+    </style>
+
+    <style name="errorToast" >
+        <item name="stColorBackground" >#5e1224</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stIconStart" >@drawable/ic_wifi</item>
+    </style>
+
+</resources>
